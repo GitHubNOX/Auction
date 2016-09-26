@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+
+              android:layout_height="@dimen/toolbarSize">
+    
+    <ImageView
+        android:id="@+id/toolbar_leftImg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        android:paddingLeft="@dimen/image_marginH"
+        android:src="@drawable/ic_toolbar_left_search"/>
+
+    <com.ewaytone.auction.widget.ClearEditText
+        android:id="@+id/toolbar_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/search_view_marginH"
+        android:layout_marginRight="@dimen/search_view_marginH"
+        android:layout_marginBottom="@dimen/search_view_marginV"
+        android:layout_marginTop="@dimen/search_view_marginV"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="10.0dp"
+        android:paddingLeft="12.0dp"
+        android:paddingRight="16.0dp"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_toRightOf="@+id/toolbar_leftImg"
+        android:layout_toLeftOf="@+id/toolbar_rightImg"
+        android:hint="搜索瓷器、拍品"
+
+        android:background="@drawable/shape_search_view"/>
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:text="主题"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_medium"
+        android:visibility="gone"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/toolbar_rightImg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/image_marginH"
+        android:visibility="gone"
+        android:src="@drawable/ic_msg_small"/>
+
+    <TextView
+        android:id="@+id/toolbar_rightText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_button_style"
+        android:layout_alignParentRight="true"
+        android:text="编辑"/>
+    
+
+
+
+
+</RelativeLayout>

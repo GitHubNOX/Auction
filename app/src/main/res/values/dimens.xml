@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="text_size_normal">14.0sp</dimen>
+    <dimen name="text_size_medium">16.0sp</dimen>
+    <dimen name="text_size_large">18.0sp</dimen>
+    <dimen name="toolbarSize">45.0dip</dimen>
+
+    <dimen name="search_view_marginH">10.0dp</dimen>
+    <dimen name="search_view_marginV">10.0dp</dimen>
+    <dimen name="search_view_paddingL">12.0dp</dimen>
+    <dimen name="search_view_paddingR">16.0dp</dimen>
+    <dimen name="drawablePadding">10.0dp</dimen>
+
+    <dimen name="image_paddingH">10.0dp</dimen>
+    <dimen name="image_paddingV">10.0dp</dimen>
+    <dimen name="image_marginH">10.0dp</dimen>
+    <dimen name="image_marginV">10.0dp</dimen>
+
+    <dimen name="button_paddingH">10.0dp</dimen>
+    <dimen name="button_paddingV">10.0dp</dimen>
+    <dimen name="button_marginH">10.0dp</dimen>
+    <dimen name="button_marginV">8.0dp</dimen>
+</resources>

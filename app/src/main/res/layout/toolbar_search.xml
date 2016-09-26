@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="?colorPrimary" >
+
+
+    <com.ewaytone.auction.widget.ClearEditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_search_view"
+        android:layout_marginBottom="@dimen/search_view_marginV"
+        android:layout_marginTop="@dimen/search_view_marginV"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="@dimen/drawablePadding"
+        android:paddingLeft="@dimen/search_view_paddingL"
+        android:paddingRight="@dimen/search_view_paddingR"
+        android:hint="搜索瓷器、拍品"
+        android:textSize="@dimen/text_size_normal"/>
+
+
+</android.support.v7.widget.Toolbar>
