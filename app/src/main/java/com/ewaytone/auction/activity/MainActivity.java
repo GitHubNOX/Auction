@@ -23,7 +23,7 @@ import java.util.List;
 public class MainActivity extends BaseActivity {
 
 
-    private FragmentTabHost mTabhost;
+    private FragmentTabHost mTabhost11111;
     private LayoutInflater mInflater;
 
     private List<Tab> mTabs;
